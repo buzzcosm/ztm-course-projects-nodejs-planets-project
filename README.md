@@ -2,9 +2,49 @@
 
 `ZTM` Udemy Course - [Complete NodeJS Developer](https://www.udemy.com/course/complete-nodejs-developer-zero-to-mastery).
 
+## Prerequisite
+
+- `Node.js` is installed ⚡
+- Prefered Code-Editor/IDE is installed (For example: `vscode`) ✍
+- Terminal is ready 😎
+
 ## Description
 
-Evaluation of habitable planets such as Earth with Kepler data.
+Evaluation of habitable planets such as Earth with Kepler data. Kepler data is available as csv and is read out with `csv-parse`-lib in a stream.
+
+## Process
+
+Install npm packages ⬇
+
+```shell
+npm install
+```
+
+Run node application 🏎️💨
+
+```shell
+npm start
+# or start with nodemon
+npm run dev
+```
+
+Clean packages 🧹🪣
+
+```shell
+npm run clean
+```
+
+Check vulnerabilities 🤔
+
+```shell
+npm audit
+```
+
+Fix vulnerabilities if needed ✅
+
+```shell
+npm audit fix
+```
 
 ## Useful references
 
